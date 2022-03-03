@@ -6,8 +6,11 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpeg
-display_categories: [work]
+  image: prof_pic.jpg
+  address: >
+    <p>1400 NE Campus Pkwy</p>
+    <p> Seattle, WA 98195. r</p>
+
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
