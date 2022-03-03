@@ -7,6 +7,10 @@ first_name: Joe
 middle_name: B.
 last_name: Bak-Coleman
 email: jbakcoleman@gmail.com
+first_name: Joe
+middle_name: B.
+last_name: Bak-Coleman
+email: jbakcoleman@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Collective behavior from fish to fascists.
 footer_text: >
@@ -18,8 +22,8 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for exam  ple: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://joebakcoleman.com # the  base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+url: https://josephbb.github.io # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -93,7 +97,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  ''
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -103,7 +107,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Of Fish and Fascists  # your blog must have a name for it to show up in the nav bar
+blog_name: Fish and Fascists  # your blog must have a name for it to show up in the nav bar
 blog_description: Unpublishable thoughts collective behavior, statistics, and technology
 permalink: /blog/:year/:title/
 
