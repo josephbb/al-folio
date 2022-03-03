@@ -3,11 +3,14 @@ layout: about
 title: about
 permalink: /
 subtitle:
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpeg
   address: >
+    <p>Gerberding Hall</p>
+    <p>University of Washington</p>
     <p>1400 NE Campus Pkwy</p>
     <p> Seattle, WA 98195. r</p>
 
