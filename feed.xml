@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://joebakcoleman.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joebakcoleman.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-22T23:02:25+00:00</updated><id>https://joebakcoleman.com/feed.xml</id><title type="html">blank</title><subtitle>Collective behavior from fish to fascists.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://joebakcoleman.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joebakcoleman.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-23T00:15:41+00:00</updated><id>https://joebakcoleman.com/feed.xml</id><title type="html">blank</title><subtitle>Collective behavior from fish to fascists.
 </subtitle><entry><title type="html">Rigor Desiderada</title><link href="https://joebakcoleman.com/blog/2023/Harvard/" rel="alternate" type="text/html" title="Rigor Desiderada" /><published>2023-06-20T05:12:00+00:00</published><updated>2023-06-20T05:12:00+00:00</updated><id>https://joebakcoleman.com/blog/2023/Harvard</id><content type="html" xml:base="https://joebakcoleman.com/blog/2023/Harvard/"><![CDATA[<h1 id="yada-yada-falsificada">Yada, Yada, Falsificada</h1>
 
 <p>On June 16<sup>th</sup>, Stephanie Lee released <a href="https://www.chronicle.com/article/a-weird-research-misconduct-scandal-about-dishonesty-just-got-weirder">an article</a> in the <em>The Chronicle</em> detailing a new chapter in a long-running scandal over data mishandling in a now-retracted <a href="https://www.pnas.org/doi/10.1073/pnas.1209746109">paper</a> about honesty. We’ve come to learn that a second researcher is being investigated by Harvard, and has currently been <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=271812">placed on leave</a>. While the full report has not been released (and may never be), it looks a lot like Harvard found something pretty damning. If none of this sounds familiar, I suggest reading her article before going much further.</p>
@@ -77,19 +77,25 @@
 
 <p>Let’s sum things up a little bit.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The data are clearly manually adjusted and rows have been moved.
-The movements increase the effect along the hypothesized direction.
-Unclear how to distinguish this from selection bias, non-independence of rows in a sorted dataset.
-Of the six rows that had their location moved, one did not have its condition changed.
-One row is duplicated.
-The movement of rows does not impact the direction of the effect or significance.
-</code></pre></div></div>
+<ul>
+  <li>The data are clearly manually adjusted and rows have been moved.</li>
+  <li>The movements increase the effect along the hypothesized direction.</li>
+  <li>Unclear how to distinguish this from selection bias, non-independence of rows in a sorted dataset.</li>
+  <li>Of the six rows that had their location moved, one did not have its condition changed.</li>
+  <li>One row is duplicated.</li>
+  <li>The movement of rows does not impact the direction of the effect or significance.</li>
+</ul>
 
 <p>There are two scenarios:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Data were carelessly mangled in handling.
-Data were intentionally mangled to support the hypothesis.
-</code></pre></div></div>
+<ol>
+  <li>
+    <p>Data were carelessly mangled in handling.</p>
+  </li>
+  <li>
+    <p>Data were intentionally mangled to support the hypothesis.</p>
+  </li>
+</ol>
 
 <p>It is abundantly clear that at 1 is true. I agree with Data Colada’s assessment that someone manually interacted with the data and that rows were moved during this process. It’s more than enough to warrant pulling the raw data, digging in, and seeing what went wrong. I hope/assume Harvard has done this.</p>
 
