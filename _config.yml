@@ -7,10 +7,6 @@ first_name: Joe
 middle_name: B.
 last_name: Bak-Coleman
 email: jbakcoleman@gmail.com
-first_name: Joe
-middle_name: B.
-last_name: Bak-Coleman
-email: jbakcoleman@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Collective behavior from fish to fascists.
 footer_text: >
